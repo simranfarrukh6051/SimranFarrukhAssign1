@@ -1,5 +1,10 @@
-package pickacard;
+/**
+ * Assignment 1 - GitHub Set + Java Code Basics
+ * @author Simran 
+ * @version 1.0 
+*/
 
+package pickacard;
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack =11, Queen =12, King = 13)
@@ -9,6 +14,7 @@ package pickacard;
  * add your name as an author.
  * @author dancye
  * @author Paul Bonenfant
+ * @author Simran
  */
 public class Card {
 
