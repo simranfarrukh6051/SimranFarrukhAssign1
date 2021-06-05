@@ -4,7 +4,7 @@
  * @version 1.0 
 */
 
-package pickacard;
+package simran.farukkh.farruksi;
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack =11, Queen =12, King = 13)
