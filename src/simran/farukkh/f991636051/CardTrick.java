@@ -4,7 +4,7 @@
  * @version 1.0 
 */
 
-package simran.farukkh.farruksi;
+package simran.farukkh.f991636051;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects and then asks the user to pick a card and
