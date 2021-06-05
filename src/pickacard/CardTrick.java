@@ -1,3 +1,9 @@
+/**
+ * Assignment 1 - GitHub Set + Java Code Basics
+ * @author Simran 
+ * @version 1.0 
+*/
+
 package pickacard;
 
 /**
@@ -6,6 +12,7 @@ package pickacard;
  *
  * @author dancye
  * @author Paul Bonenfant
+ * @author Simran
  */
 public class CardTrick {
 
