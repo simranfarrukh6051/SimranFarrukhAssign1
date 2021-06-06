@@ -50,7 +50,7 @@ public class CardTrick {
         Card magicHandNew = new Card();
         
         if(pickedValue == magicHandNew.getValue() && 
-                pickedCard == magicHandNew.getSuit()){
+                pickedCard.equals(magicHandNew.getSuit())){
             System.out.println("You did it!");
         }
         else{
