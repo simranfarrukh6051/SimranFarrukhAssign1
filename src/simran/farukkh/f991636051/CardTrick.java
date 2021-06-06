@@ -28,13 +28,35 @@ public class CardTrick {
         Card[] magicHand = new Card[7];
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
-            Random random = new Random();
             c.setValue(c.randomValue());
             c.setSuit(Card.SUITS[c.randomSuit()]);
+            magicHand[i] = c;
         }
-        
-        
+     
+        System.out.println("Pick a card! Any card! ");
+        System.out.println("Pick the value for your card");
 
+        String pickedCard = input.nextLine();
+        System.out.println("Please type the name of your suit");
+        
+        int pickedValue = input.nextInt();
+        
+        System.out.println("Your card is: " + pickedValue + " of " 
+                + pickedCard);
+        
+        System.out.println("Do you think your card is the magic card? "
+                + "Let's find out!");
+        
+        Card magicHandNew = new Card();
+        
+        if(pickedValue == magicHandNew.getValue() && 
+                pickedCard == magicHandNew.getSuit()){
+            System.out.println("You did it!");
+        }
+        else{
+            System.out.println("Oooop! Try again~");
+        }
+                
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
