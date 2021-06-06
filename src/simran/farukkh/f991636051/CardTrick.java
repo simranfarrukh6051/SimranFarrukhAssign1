@@ -46,7 +46,9 @@ public class CardTrick {
         
         System.out.println("Do you think your card is the magic card? "
                 + "Let's find out!");
+      
         
+        /**
         Card magicHandNew = new Card();
         
         if(pickedValue == magicHandNew.getValue() && 
@@ -56,6 +58,10 @@ public class CardTrick {
         else{
             System.out.println("Oooop! Try again~");
         }
+        
+        */
+        
+        Card luckyCard = new Card(1, "Hearts");
                 
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
