@@ -21,12 +21,12 @@ public class CardTrick {
     public static void main(String[] args) {
         
         Card[] magicHand = new Card[7];
-
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
             Random random = new Random();
-            c.setValue(magicHand[random.nextInt(magicHand.length)]);
-            //c.setValue(insert call to random number generator here)
+            c.setValue(Card.VALUE[random.nextInt(value.length)]);
+            c.setSuit(Card.SUITS[random.nextInt(suit.length)]);
+//c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
 

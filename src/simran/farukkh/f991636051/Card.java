@@ -8,11 +8,11 @@ package simran.farukkh.f991636051;
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack =11, Queen =12, King = 13)
- * A suit (clubs, hearts, spades, diamonds).
+ * A .
+ * @author dancysuit (clubs, hearts, spades, diamonds).
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in Exercise 1. When you create your own branch,
- * add your name as an author.
- * @author dancye
+ * add your name as an author
  * @author Paul Bonenfant
  * @author Simran
  */
@@ -22,6 +22,7 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   public static final int [] VALUE = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
     /**
      * @return the suit
      */
