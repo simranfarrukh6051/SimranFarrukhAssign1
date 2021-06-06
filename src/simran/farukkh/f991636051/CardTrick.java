@@ -47,7 +47,6 @@ public class CardTrick {
         System.out.println("Do you think your card is the magic card? "
                 + "Let's find out!");
       
-        
         /**
         Card magicHandNew = new Card();
         
