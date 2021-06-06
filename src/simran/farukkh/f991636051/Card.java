@@ -51,7 +51,23 @@ public class Card {
     void setValue(int value) {
         this.value = value;
     }
-   
-   
     
+    /**
+     * @return value
+     * method to generate random card value
+     */
+    
+    public int randomValue(){
+        int value= (int)(Math.random()*13)+1;   
+        return value;
+    }
+    
+    /**
+     * @return suit
+     * method to generate random suit value
+     */
+     public int randomSuit(){
+        int value= (int)(Math.random()*4)+0;
+        return value;
+    }  
 }
