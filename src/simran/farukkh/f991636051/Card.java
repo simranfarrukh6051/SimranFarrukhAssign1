@@ -29,6 +29,13 @@ public class Card {
     public String getSuit() {
         return suit;
     }
+    
+    /**
+     * @return the value
+     */
+    public int getValue() {
+        return value;
+    }
 
     /**
      * @param suit the suit to set
@@ -37,8 +44,11 @@ public class Card {
         this.suit = suit;
     }
 
-    void setValue(Card card) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @param value the value to set
+     */
+    void setValue(int value) {
+        this.value = value;
     }
    
    
